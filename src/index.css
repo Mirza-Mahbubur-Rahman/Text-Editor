@@ -1,0 +1,30 @@
+.toolbar {
+  margin-bottom: 10px;
+}
+.toolbar button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.editor {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 10px;
+}
+.editor table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.editor th,
+.editor td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+.toolbar select {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(232, 232, 232);
+}
