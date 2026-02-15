@@ -47,7 +47,7 @@ export default function Editor() {
         <button onClick={() => editor.chain().focus().toggleUnderline().run()}>
           Underline
         </button>
-        {[1, 2, 3, 4, 5, 6].map((level) => (
+        {/* {[1, 2, 3, 4, 5, 6].map((level) => (
           <button
             key={level}
             onClick={() =>
@@ -56,7 +56,7 @@ export default function Editor() {
           >
             H{level}
           </button>
-        ))}
+        ))} */}
         <button onClick={() => editor.chain().focus().toggleBulletList().run()}>
           • List
         </button>
